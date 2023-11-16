@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            My First Form
+        </title>
+    </head>
+        <body>
+            <header>
+                <h1> Best Pizza Ever </h1>
+            </header>
+            <main>
+                <section id = "contact-form">
+                    <h2> Place Order</h2>
+                    <form method="GET" action="">
+                        <h4> Delivery </h4>
+                        <input name = "DeliveryMethod" type = "radio" value="delivery"/> Delivery <br/>
+                        <input name = "DeliveryMethod" type = "radio" value="pickup"/> Pickup <br/>
+
+<br/><br/>
+                        <input name = "address1" placeholder="address line 1" class="lg-input"> <br/>
+                        <input name = "address2" placeholder="address line 2" class="lg-input"> <br/>
+                        <input name = "city" placeholder="city" class="sm-input"> 
+                        <input name = "state" placeholder="state" class="sm-input"> <br/>
+                        <input name = "zipcode" placeholder="zipcode" class ="sm-input"> <br/>
+
+                        <h4> Size </h4>
+                        <select name ="size">
+                            <option value = "12">12- $12.99</option>
+                            <option value = "112">12- $112.99</option>
+                            <option value = "1245">12- $1112.99</option>
+                            <option value = "12891">12- $111112.99</option>
+
+                        </select>
+
+                        <h4> Ingredients </h4>
+                        <input name = "ingredients" type = "checkbox" value = "peproni"/> Peproni <br/>
+                        <input name = "ingredients" type = "checkbox" value="cheese"/> Cheese <br/>
+                        <input name = "ingredients" type = "checkbox" value="jalapeno"/> Jalapeno <br/>
+                        <input name = "ingredients" type = "checkbox" value="paneer"/> Paneer <br/>
+
+                        <button type="submit"> Place Order</button>
+                    </form>
+                </section>
+            </main>
+
+        </body>
+</html>
