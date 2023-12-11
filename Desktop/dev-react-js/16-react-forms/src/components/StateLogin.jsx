@@ -35,8 +35,6 @@ export default function Login() {
    !hasMaxLength(enteredValues.password, 16) ||
    !hasValidPasswordFormat(enteredValues.password));
 
-
-
   function handleSubmit(event) {
     event.preventDefault();
 
@@ -72,14 +70,6 @@ export default function Login() {
       [identifier]: true,
     }));
   }
-
-  // function handleEmailChange(event) {
-  //   setEnteredEmail(event.target.value);
-  // }
-
-  // function handlePasswordChange(event) {
-  //   setEnteredPassword(event.target.value);
-  // }
 
   return (
     <form onSubmit={handleSubmit}>
